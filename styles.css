@@ -1,0 +1,103 @@
+body{
+  background-color: #011F3F;
+  text-align: center;
+}
+h1{
+ color: white;
+ font-family: monospace;
+}
+p{
+  font-size: 1.5rem;
+  font-family: monospace;
+  color: white;
+  padding-bottom: 3rem;
+}
+h4{
+  font-family: monospace;
+  font-weight: bold;
+  color: white;
+}
+
+#level-title{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 2%;
+  color: #FEF2BF;
+}
+
+.container{
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn{
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  border-radius: 20%;
+  border: 10px solid black;
+  margin: 20px;
+}
+
+.red{
+  background-color: #e40017;
+}
+ .green{
+  background-color: #81b214;
+ }
+
+ .blue{
+   background-color: #00e0ff;
+ }
+
+ .yellow{
+   background-color: #ffbe0f;
+ }
+
+
+ .pressed{
+   box-shadow: 0 0 30px white;
+   background-color: #eee;
+ }
+
+.gameOver{
+  background-color: red;
+}
+
+
+.butn {
+  -webkit-border-radius: 22;
+  -moz-border-radius: 22;
+  border-radius: 22px;
+  font-family: Courier New;
+  color: #fff7ff;
+  font-size: 16px;
+  background: #242120;
+  padding: 12px 16px 12px 20px;
+  text-decoration: none;
+  margin: 20px auto;
+}
+
+.butn:hover {
+  background: #5b5b5b;
+  text-decoration: none;
+}
+
+
+/* for Android Mobiles  */
+
+@media (max-width: 1138px){
+    .btn{
+      width: 150px;
+      height: 150px;
+    }
+    #level-title{
+      font-size: 30px;
+    }
+    .butn{
+      font-size: 14px;
+      padding: 7px;
+      font-weight: bold;
+    }
+}
